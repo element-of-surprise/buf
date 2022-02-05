@@ -24,7 +24,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/element-of-surprise/buf/private/pkg/stringutil"
 	"github.com/stretchr/testify/assert"
 )
 

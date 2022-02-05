@@ -17,10 +17,10 @@ package configmigratev1beta1
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/buf/bufmigrate"
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/app/appflag"
+	"github.com/element-of-surprise/buf/private/buf/bufmigrate"
+	"github.com/element-of-surprise/buf/private/pkg/app"
+	"github.com/element-of-surprise/buf/private/pkg/app/appcmd"
+	"github.com/element-of-surprise/buf/private/pkg/app/appflag"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

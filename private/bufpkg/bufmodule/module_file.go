@@ -17,7 +17,7 @@ package bufmodule
 import (
 	"io"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduleref"
 )
 
 var _ ModuleFile = &moduleFile{}

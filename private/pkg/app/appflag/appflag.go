@@ -19,10 +19,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/app/applog"
-	"github.com/bufbuild/buf/private/pkg/app/appname"
-	"github.com/bufbuild/buf/private/pkg/app/appverbose"
+	"github.com/element-of-surprise/buf/private/pkg/app"
+	"github.com/element-of-surprise/buf/private/pkg/app/applog"
+	"github.com/element-of-surprise/buf/private/pkg/app/appname"
+	"github.com/element-of-surprise/buf/private/pkg/app/appverbose"
 	"github.com/spf13/pflag"
 )
 

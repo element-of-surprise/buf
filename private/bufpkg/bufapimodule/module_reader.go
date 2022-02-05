@@ -17,11 +17,11 @@ package bufapimodule
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/gen/proto/apiclient/buf/alpha/registry/v1alpha1/registryv1alpha1apiclient"
-	"github.com/bufbuild/buf/private/pkg/rpc"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/element-of-surprise/buf/private/gen/proto/apiclient/buf/alpha/registry/v1alpha1/registryv1alpha1apiclient"
+	"github.com/element-of-surprise/buf/private/pkg/rpc"
+	"github.com/element-of-surprise/buf/private/pkg/storage"
 )
 
 type moduleReader struct {

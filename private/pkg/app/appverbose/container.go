@@ -14,7 +14,7 @@
 
 package appverbose
 
-import "github.com/bufbuild/buf/private/pkg/verbose"
+import "github.com/element-of-surprise/buf/private/pkg/verbose"
 
 type container struct {
 	verbosePrinter verbose.Printer

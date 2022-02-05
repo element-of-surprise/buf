@@ -19,12 +19,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/buflock"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduletesting"
-	"github.com/bufbuild/buf/private/pkg/encoding"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/element-of-surprise/buf/private/bufpkg/buflock"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduletesting"
+	"github.com/element-of-surprise/buf/private/pkg/encoding"
+	"github.com/element-of-surprise/buf/private/pkg/storage"
+	"github.com/element-of-surprise/buf/private/pkg/storage/storagemem"
+	"github.com/element-of-surprise/buf/private/pkg/storage/storageos"
 	"github.com/stretchr/testify/require"
 )
 

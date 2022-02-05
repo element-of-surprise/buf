@@ -18,8 +18,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/bufbuild/buf/private/pkg/encoding"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/element-of-surprise/buf/private/pkg/encoding"
+	"github.com/element-of-surprise/buf/private/pkg/storage"
 )
 
 func readConfig(ctx context.Context, readBucket storage.ReadBucket) (_ *Config, retErr error) {

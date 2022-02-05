@@ -29,10 +29,10 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/protodescriptor"
-	"github.com/bufbuild/buf/private/pkg/protoencoding"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/element-of-surprise/buf/private/pkg/app"
+	"github.com/element-of-surprise/buf/private/pkg/protodescriptor"
+	"github.com/element-of-surprise/buf/private/pkg/protoencoding"
+	"github.com/element-of-surprise/buf/private/pkg/storage"
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/types/pluginpb"
 )

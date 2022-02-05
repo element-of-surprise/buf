@@ -18,8 +18,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/netrc"
+	"github.com/element-of-surprise/buf/private/pkg/app"
+	"github.com/element-of-surprise/buf/private/pkg/netrc"
 )
 
 type netrcAuthenticator struct{}

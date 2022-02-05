@@ -17,7 +17,7 @@ package bufmodule
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/element-of-surprise/buf/private/pkg/storage"
 )
 
 // moduleReadBucket is a ReadBucket that has associated module information.

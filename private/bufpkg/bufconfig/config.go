@@ -15,10 +15,10 @@
 package bufconfig
 
 import (
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/bufbreaking/bufbreakingconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/buflint/buflintconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufcheck/bufbreaking/bufbreakingconfig"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufcheck/buflint/buflintconfig"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduleconfig"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduleref"
 )
 
 func newConfigV1Beta1(externalConfig ExternalConfigV1Beta1) (*Config, error) {

@@ -18,8 +18,8 @@ package registryv1alpha1api
 
 import (
 	context "context"
-	v1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/image/v1"
-	v1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1"
+	v1 "github.com/element-of-surprise/buf/private/gen/proto/go/buf/alpha/image/v1"
+	v1alpha1 "github.com/element-of-surprise/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1"
 	pluginpb "google.golang.org/protobuf/types/pluginpb"
 )
 

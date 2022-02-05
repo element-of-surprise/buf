@@ -20,7 +20,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/zaputil"
+	"github.com/element-of-surprise/buf/private/pkg/zaputil"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

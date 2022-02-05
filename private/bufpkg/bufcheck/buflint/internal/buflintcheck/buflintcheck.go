@@ -23,12 +23,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/internal"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/protosource"
-	"github.com/bufbuild/buf/private/pkg/protoversion"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufanalysis"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufcheck/internal"
+	"github.com/element-of-surprise/buf/private/pkg/normalpath"
+	"github.com/element-of-surprise/buf/private/pkg/protosource"
+	"github.com/element-of-surprise/buf/private/pkg/protoversion"
+	"github.com/element-of-surprise/buf/private/pkg/stringutil"
 )
 
 const (
@@ -177,7 +177,7 @@ func checkEnumValuePrefix(add addFunc, enumValue protosource.EnumValue) error {
 			enumValue.NameLocation(),
 			// also check the enum for this comment ignore
 			// this allows users to set this "globally" for an enum
-			// this came up in https://github.com/bufbuild/buf/issues/161
+			// this came up in https://github.com/element-of-surprise/buf/issues/161
 			[]protosource.Location{
 				enumValue.Enum().Location(),
 			},
@@ -844,7 +844,7 @@ func checkRPCRequestStandardName(add addFunc, method protosource.Method, allowGo
 			method,
 			method.InputTypeLocation(),
 			// also check the method and service for this comment ignore
-			// this came up in https://github.com/bufbuild/buf/issues/242
+			// this came up in https://github.com/element-of-surprise/buf/issues/242
 			[]protosource.Location{
 				method.Location(),
 				method.Service().Location(),
@@ -892,7 +892,7 @@ func checkRPCResponseStandardName(add addFunc, method protosource.Method, allowG
 			method,
 			method.OutputTypeLocation(),
 			// also check the method and service for this comment ignore
-			// this came up in https://github.com/bufbuild/buf/issues/242
+			// this came up in https://github.com/element-of-surprise/buf/issues/242
 			[]protosource.Location{
 				method.Location(),
 				method.Service().Location(),

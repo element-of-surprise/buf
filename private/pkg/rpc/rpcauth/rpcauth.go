@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/rpc"
+	"github.com/element-of-surprise/buf/private/pkg/rpc"
 )
 
 const (

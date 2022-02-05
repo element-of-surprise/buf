@@ -17,7 +17,7 @@
 // It uses bufbreakingcheck and bufbreakingbuild.
 package bufbreakingv1beta1
 
-import "github.com/bufbuild/buf/private/bufpkg/bufcheck/internal"
+import "github.com/element-of-surprise/buf/private/bufpkg/bufcheck/internal"
 
 // VersionSpec is the version specification for v1beta1.
 var VersionSpec = &internal.VersionSpec{

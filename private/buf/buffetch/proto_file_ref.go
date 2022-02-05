@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/bufbuild/buf/private/buf/buffetch/internal"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/element-of-surprise/buf/private/buf/buffetch/internal"
+	"github.com/element-of-surprise/buf/private/pkg/normalpath"
 )
 
 var _ ProtoFileRef = &protoFileRef{}

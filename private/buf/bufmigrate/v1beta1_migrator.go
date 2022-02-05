@@ -22,15 +22,15 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bufbuild/buf/private/buf/bufgen"
-	"github.com/bufbuild/buf/private/buf/bufwork"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/bufbreaking/bufbreakingconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/buflint/buflintconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/bufpkg/buflock"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleconfig"
-	"github.com/bufbuild/buf/private/pkg/encoding"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/element-of-surprise/buf/private/buf/bufgen"
+	"github.com/element-of-surprise/buf/private/buf/bufwork"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufcheck/bufbreaking/bufbreakingconfig"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufcheck/buflint/buflintconfig"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufconfig"
+	"github.com/element-of-surprise/buf/private/bufpkg/buflock"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduleconfig"
+	"github.com/element-of-surprise/buf/private/pkg/encoding"
+	"github.com/element-of-surprise/buf/private/pkg/stringutil"
 )
 
 const (

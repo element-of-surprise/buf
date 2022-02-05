@@ -21,10 +21,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bufbuild/buf/private/buf/buffetch"
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/element-of-surprise/buf/private/buf/buffetch"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufanalysis"
+	"github.com/element-of-surprise/buf/private/pkg/normalpath"
+	"github.com/element-of-surprise/buf/private/pkg/stringutil"
 	"github.com/spf13/pflag"
 )
 

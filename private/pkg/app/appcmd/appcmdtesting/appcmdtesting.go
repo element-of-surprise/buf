@@ -20,9 +20,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/element-of-surprise/buf/private/pkg/app"
+	"github.com/element-of-surprise/buf/private/pkg/app/appcmd"
+	"github.com/element-of-surprise/buf/private/pkg/stringutil"
 	"github.com/stretchr/testify/require"
 )
 

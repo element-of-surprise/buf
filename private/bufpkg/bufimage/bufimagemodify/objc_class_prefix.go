@@ -19,8 +19,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/pkg/protoversion"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufimage"
+	"github.com/element-of-surprise/buf/private/pkg/protoversion"
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/descriptorpb"

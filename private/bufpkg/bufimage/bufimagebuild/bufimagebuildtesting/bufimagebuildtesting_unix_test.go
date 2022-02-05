@@ -24,7 +24,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bufbuild/buf/private/pkg/command"
+	"github.com/element-of-surprise/buf/private/pkg/command"
 	"github.com/stretchr/testify/require"
 )
 

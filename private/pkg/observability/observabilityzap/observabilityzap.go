@@ -15,7 +15,7 @@
 package observabilityzap
 
 import (
-	"github.com/bufbuild/buf/private/pkg/observability"
+	"github.com/element-of-surprise/buf/private/pkg/observability"
 	"go.uber.org/zap"
 )
 

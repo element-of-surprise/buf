@@ -18,9 +18,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/command"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/element-of-surprise/buf/private/pkg/app"
+	"github.com/element-of-surprise/buf/private/pkg/command"
+	"github.com/element-of-surprise/buf/private/pkg/stringutil"
 	"go.opencensus.io/trace"
 	"go.uber.org/zap"
 )

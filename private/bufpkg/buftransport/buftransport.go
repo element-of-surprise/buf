@@ -17,7 +17,7 @@ package buftransport
 import (
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/app"
+	"github.com/element-of-surprise/buf/private/pkg/app"
 )
 
 const (

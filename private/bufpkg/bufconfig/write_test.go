@@ -19,9 +19,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/bufbreaking/bufbreakingconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/buflint/buflintconfig"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufcheck/bufbreaking/bufbreakingconfig"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufcheck/buflint/buflintconfig"
+	"github.com/element-of-surprise/buf/private/pkg/storage/storageos"
 	"github.com/stretchr/testify/require"
 )
 

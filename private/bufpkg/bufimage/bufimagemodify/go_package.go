@@ -18,8 +18,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufimage"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduleref"
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/descriptorpb"

@@ -19,13 +19,13 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/git"
-	"github.com/bufbuild/buf/private/pkg/httpauth"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/element-of-surprise/buf/private/pkg/app"
+	"github.com/element-of-surprise/buf/private/pkg/git"
+	"github.com/element-of-surprise/buf/private/pkg/httpauth"
+	"github.com/element-of-surprise/buf/private/pkg/storage"
+	"github.com/element-of-surprise/buf/private/pkg/storage/storageos"
 	"go.uber.org/zap"
 )
 

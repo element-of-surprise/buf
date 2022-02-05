@@ -18,8 +18,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufimage"
+	"github.com/element-of-surprise/buf/private/pkg/stringutil"
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/descriptorpb"

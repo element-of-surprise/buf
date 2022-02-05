@@ -16,8 +16,8 @@
 package bufapimodule
 
 import (
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/gen/proto/apiclient/buf/alpha/registry/v1alpha1/registryv1alpha1apiclient"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule"
+	"github.com/element-of-surprise/buf/private/gen/proto/apiclient/buf/alpha/registry/v1alpha1/registryv1alpha1apiclient"
 	"go.uber.org/zap"
 )
 

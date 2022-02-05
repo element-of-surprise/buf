@@ -15,7 +15,7 @@
 package bufmoduleref
 
 import (
-	"github.com/bufbuild/buf/private/pkg/protodescriptor"
+	"github.com/element-of-surprise/buf/private/pkg/protodescriptor"
 )
 
 var _ FileInfo = &fileInfo{}

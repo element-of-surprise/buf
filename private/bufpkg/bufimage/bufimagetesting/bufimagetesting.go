@@ -17,10 +17,10 @@ package bufimagetesting
 import (
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	imagev1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/image/v1"
-	"github.com/bufbuild/buf/private/pkg/protodescriptor"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufimage"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduleref"
+	imagev1 "github.com/element-of-surprise/buf/private/gen/proto/go/buf/alpha/image/v1"
+	"github.com/element-of-surprise/buf/private/pkg/protodescriptor"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"

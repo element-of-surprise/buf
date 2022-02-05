@@ -18,7 +18,7 @@ package registryv1alpha1apiclientgrpc
 
 import (
 	context "context"
-	v1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1"
+	v1alpha1 "github.com/element-of-surprise/buf/private/gen/proto/go/buf/alpha/registry/v1alpha1"
 	zap "go.uber.org/zap"
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
 )

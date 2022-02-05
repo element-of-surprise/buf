@@ -25,8 +25,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
+	"github.com/element-of-surprise/buf/private/pkg/app"
+	"github.com/element-of-surprise/buf/private/pkg/app/appcmd"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 	"go.uber.org/multierr"

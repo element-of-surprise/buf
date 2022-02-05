@@ -22,7 +22,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/bufbuild/buf/private/pkg/app"
+	"github.com/element-of-surprise/buf/private/pkg/app"
 )
 
 type container struct {

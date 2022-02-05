@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/app"
+	"github.com/element-of-surprise/buf/private/pkg/app"
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
 	"github.com/spf13/pflag"

@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storageutil"
+	"github.com/element-of-surprise/buf/private/pkg/normalpath"
+	"github.com/element-of-surprise/buf/private/pkg/storage"
+	"github.com/element-of-surprise/buf/private/pkg/storage/storageutil"
 	"github.com/klauspost/compress/zip"
 	"go.uber.org/multierr"
 )

@@ -17,7 +17,7 @@ package appverbose
 import (
 	"io"
 
-	"github.com/bufbuild/buf/private/pkg/verbose"
+	"github.com/element-of-surprise/buf/private/pkg/verbose"
 )
 
 // Container is a container.

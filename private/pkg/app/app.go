@@ -23,7 +23,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/bufbuild/buf/private/pkg/interrupt"
+	"github.com/element-of-surprise/buf/private/pkg/interrupt"
 )
 
 // EnvContainer provides envionment variables.

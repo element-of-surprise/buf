@@ -21,8 +21,8 @@
 package bufbreakingbuild
 
 import (
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/bufbreaking/internal/bufbreakingcheck"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/internal"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufcheck/bufbreaking/internal/bufbreakingcheck"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufcheck/internal"
 )
 
 var (

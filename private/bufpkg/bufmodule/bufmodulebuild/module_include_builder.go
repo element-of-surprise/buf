@@ -17,11 +17,11 @@ package bufmodulebuild
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/internal"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/internal"
+	"github.com/element-of-surprise/buf/private/pkg/normalpath"
+	"github.com/element-of-surprise/buf/private/pkg/storage"
+	"github.com/element-of-surprise/buf/private/pkg/storage/storageos"
 	"go.uber.org/zap"
 )
 
@@ -100,7 +100,7 @@ func (b *moduleIncludeBuilder) buildForIncludes(
 			return nil, err
 		}
 		// need to do match extension here
-		// https://github.com/bufbuild/buf/issues/113
+		// https://github.com/element-of-surprise/buf/issues/113
 		rootBuckets = append(rootBuckets, storage.MapReadBucket(rootBucket, storage.MatchPathExt(".proto")))
 	}
 	module, err := bufmodule.NewModuleForBucket(ctx, storage.MultiReadBucket(rootBuckets...))

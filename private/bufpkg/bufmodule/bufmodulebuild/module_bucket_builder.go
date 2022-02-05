@@ -17,13 +17,13 @@ package bufmodulebuild
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/bufpkg/buflock"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem"
+	"github.com/element-of-surprise/buf/private/bufpkg/buflock"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduleconfig"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/element-of-surprise/buf/private/pkg/normalpath"
+	"github.com/element-of-surprise/buf/private/pkg/storage"
+	"github.com/element-of-surprise/buf/private/pkg/storage/storagemem"
 	"go.uber.org/zap"
 )
 
@@ -89,7 +89,7 @@ func (b *moduleBucketBuilder) buildForBucket(
 		roots = append(roots, root)
 		mappers := []storage.Mapper{
 			// need to do match extension here
-			// https://github.com/bufbuild/buf/issues/113
+			// https://github.com/element-of-surprise/buf/issues/113
 			storage.MatchPathExt(".proto"),
 			storage.MapOnPrefix(root),
 		}

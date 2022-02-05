@@ -19,10 +19,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/app/appflag"
-	"github.com/bufbuild/buf/private/pkg/rpc"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/element-of-surprise/buf/private/pkg/app"
+	"github.com/element-of-surprise/buf/private/pkg/app/appflag"
+	"github.com/element-of-surprise/buf/private/pkg/rpc"
 )
 
 const (
@@ -74,7 +74,7 @@ func isInternalError(err error) bool {
 
 func (e *errInternal) Error() string {
 	message := "it looks like you have found a bug in buf. " +
-		"Please file an issue at https://github.com/bufbuild/buf/issues/ " +
+		"Please file an issue at https://github.com/element-of-surprise/buf/issues/ " +
 		"and provide the command you ran"
 	if e.cause == nil {
 		return message

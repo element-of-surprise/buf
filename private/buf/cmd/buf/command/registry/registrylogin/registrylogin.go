@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/bufbuild/buf/private/buf/bufcli"
-	"github.com/bufbuild/buf/private/bufpkg/bufrpc"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/app/appflag"
-	"github.com/bufbuild/buf/private/pkg/netrc"
-	"github.com/bufbuild/buf/private/pkg/rpc/rpcauth"
+	"github.com/element-of-surprise/buf/private/buf/bufcli"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufrpc"
+	"github.com/element-of-surprise/buf/private/pkg/app/appcmd"
+	"github.com/element-of-surprise/buf/private/pkg/app/appflag"
+	"github.com/element-of-surprise/buf/private/pkg/netrc"
+	"github.com/element-of-surprise/buf/private/pkg/rpc/rpcauth"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

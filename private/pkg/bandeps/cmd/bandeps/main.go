@@ -21,11 +21,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/app/appflag"
-	"github.com/bufbuild/buf/private/pkg/bandeps"
-	"github.com/bufbuild/buf/private/pkg/command"
-	"github.com/bufbuild/buf/private/pkg/encoding"
+	"github.com/element-of-surprise/buf/private/pkg/app/appcmd"
+	"github.com/element-of-surprise/buf/private/pkg/app/appflag"
+	"github.com/element-of-surprise/buf/private/pkg/bandeps"
+	"github.com/element-of-surprise/buf/private/pkg/command"
+	"github.com/element-of-surprise/buf/private/pkg/encoding"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

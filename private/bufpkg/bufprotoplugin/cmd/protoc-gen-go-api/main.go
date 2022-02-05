@@ -18,8 +18,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/app/appproto"
-	"github.com/bufbuild/buf/private/pkg/protogenutil"
+	"github.com/element-of-surprise/buf/private/pkg/app/appproto"
+	"github.com/element-of-surprise/buf/private/pkg/protogenutil"
 	"google.golang.org/protobuf/compiler/protogen"
 )
 

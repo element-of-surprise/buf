@@ -19,11 +19,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
-	"github.com/bufbuild/buf/private/pkg/storage/storagetesting"
+	"github.com/element-of-surprise/buf/private/pkg/normalpath"
+	"github.com/element-of-surprise/buf/private/pkg/storage"
+	"github.com/element-of-surprise/buf/private/pkg/storage/storagemem"
+	"github.com/element-of-surprise/buf/private/pkg/storage/storageos"
+	"github.com/element-of-surprise/buf/private/pkg/storage/storagetesting"
 	"github.com/stretchr/testify/require"
 )
 

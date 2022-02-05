@@ -23,8 +23,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/protosource"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/element-of-surprise/buf/private/pkg/protosource"
+	"github.com/element-of-surprise/buf/private/pkg/stringutil"
 )
 
 // CheckEnumNoDelete is a check function.

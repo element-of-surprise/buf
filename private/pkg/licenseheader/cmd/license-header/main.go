@@ -19,11 +19,11 @@ import (
 	"context"
 	"os"
 
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/command"
-	"github.com/bufbuild/buf/private/pkg/diff"
-	"github.com/bufbuild/buf/private/pkg/licenseheader"
+	"github.com/element-of-surprise/buf/private/pkg/app"
+	"github.com/element-of-surprise/buf/private/pkg/app/appcmd"
+	"github.com/element-of-surprise/buf/private/pkg/command"
+	"github.com/element-of-surprise/buf/private/pkg/diff"
+	"github.com/element-of-surprise/buf/private/pkg/licenseheader"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

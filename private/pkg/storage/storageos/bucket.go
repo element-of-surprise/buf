@@ -21,10 +21,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bufbuild/buf/private/pkg/filepathextended"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storageutil"
+	"github.com/element-of-surprise/buf/private/pkg/filepathextended"
+	"github.com/element-of-surprise/buf/private/pkg/normalpath"
+	"github.com/element-of-surprise/buf/private/pkg/storage"
+	"github.com/element-of-surprise/buf/private/pkg/storage/storageutil"
 )
 
 // errNotDir is the error returned if a path does not dir.

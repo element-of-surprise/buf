@@ -24,10 +24,10 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
+	"github.com/element-of-surprise/buf/private/pkg/app"
+	"github.com/element-of-surprise/buf/private/pkg/app/appcmd"
+	"github.com/element-of-surprise/buf/private/pkg/storage"
+	"github.com/element-of-surprise/buf/private/pkg/storage/storageos"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )
@@ -126,9 +126,9 @@ package `)
 	_, _ = buffer.WriteString(`
 
 import (
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/element-of-surprise/buf/private/pkg/storage"
+	"github.com/element-of-surprise/buf/private/pkg/storage/storagemem"
+	"github.com/element-of-surprise/buf/private/pkg/normalpath"
 )
 
 var (

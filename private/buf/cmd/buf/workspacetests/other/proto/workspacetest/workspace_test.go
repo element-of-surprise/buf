@@ -21,11 +21,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bufbuild/buf/private/buf/bufcli"
-	"github.com/bufbuild/buf/private/buf/cmd/buf"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd/appcmdtesting"
-	"github.com/bufbuild/buf/private/pkg/osextended"
+	"github.com/element-of-surprise/buf/private/buf/bufcli"
+	"github.com/element-of-surprise/buf/private/buf/cmd/buf"
+	"github.com/element-of-surprise/buf/private/pkg/app/appcmd"
+	"github.com/element-of-surprise/buf/private/pkg/app/appcmd/appcmdtesting"
+	"github.com/element-of-surprise/buf/private/pkg/osextended"
 	"github.com/stretchr/testify/require"
 )
 

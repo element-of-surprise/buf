@@ -17,7 +17,7 @@ package protosource
 import (
 	"fmt"
 
-	"github.com/bufbuild/buf/private/pkg/protodescriptor"
+	"github.com/element-of-surprise/buf/private/pkg/protodescriptor"
 	"google.golang.org/protobuf/types/descriptorpb"
 )
 

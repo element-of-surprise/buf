@@ -17,7 +17,7 @@ package app
 import (
 	"io"
 
-	"github.com/bufbuild/buf/private/pkg/ioextended"
+	"github.com/element-of-surprise/buf/private/pkg/ioextended"
 )
 
 type stdinContainer struct {

@@ -17,7 +17,7 @@ package protosource
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/pkg/thread"
+	"github.com/element-of-surprise/buf/private/pkg/thread"
 	"go.uber.org/multierr"
 )
 

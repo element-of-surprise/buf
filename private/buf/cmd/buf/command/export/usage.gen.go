@@ -16,4 +16,4 @@
 
 package export
 
-import _ "github.com/bufbuild/buf/private/usage"
+import _ "github.com/element-of-surprise/buf/private/usage"

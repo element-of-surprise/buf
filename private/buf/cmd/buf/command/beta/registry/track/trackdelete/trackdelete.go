@@ -17,11 +17,11 @@ package trackdelete
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/buf/bufcli"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/app/appflag"
-	"github.com/bufbuild/buf/private/pkg/rpc"
+	"github.com/element-of-surprise/buf/private/buf/bufcli"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/element-of-surprise/buf/private/pkg/app/appcmd"
+	"github.com/element-of-surprise/buf/private/pkg/app/appflag"
+	"github.com/element-of-surprise/buf/private/pkg/rpc"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

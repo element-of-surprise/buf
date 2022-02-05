@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/bufbuild/buf/private/pkg/normalpath"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/element-of-surprise/buf/private/pkg/normalpath"
+	"github.com/element-of-surprise/buf/private/pkg/stringutil"
 )
 
 func newConfigV1(externalConfig ExternalConfigV1, workspaceID string) (*Config, error) {

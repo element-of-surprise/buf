@@ -18,7 +18,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/element-of-surprise/buf/private/pkg/normalpath"
 )
 
 var (

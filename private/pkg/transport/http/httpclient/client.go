@@ -19,8 +19,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/observability"
-	"github.com/bufbuild/buf/private/pkg/rpc/rpchttp"
+	"github.com/element-of-surprise/buf/private/pkg/observability"
+	"github.com/element-of-surprise/buf/private/pkg/rpc/rpchttp"
 )
 
 type client struct {

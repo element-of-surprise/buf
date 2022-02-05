@@ -15,10 +15,10 @@
 package bufmoduletesting
 
 import (
-	breakingv1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/breaking/v1"
-	lintv1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/lint/v1"
-	modulev1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
-	"github.com/bufbuild/buf/private/pkg/uuidutil"
+	breakingv1 "github.com/element-of-surprise/buf/private/gen/proto/go/buf/alpha/breaking/v1"
+	lintv1 "github.com/element-of-surprise/buf/private/gen/proto/go/buf/alpha/lint/v1"
+	modulev1alpha1 "github.com/element-of-surprise/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
+	"github.com/element-of-surprise/buf/private/pkg/uuidutil"
 )
 
 const (

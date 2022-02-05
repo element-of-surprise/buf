@@ -18,11 +18,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/bufbuild/buf/private/buf/bufcli"
-	"github.com/bufbuild/buf/private/buf/bufprint"
-	"github.com/bufbuild/buf/private/bufpkg/bufplugin"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/app/appflag"
+	"github.com/element-of-surprise/buf/private/buf/bufcli"
+	"github.com/element-of-surprise/buf/private/buf/bufprint"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufplugin"
+	"github.com/element-of-surprise/buf/private/pkg/app/appcmd"
+	"github.com/element-of-surprise/buf/private/pkg/app/appflag"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

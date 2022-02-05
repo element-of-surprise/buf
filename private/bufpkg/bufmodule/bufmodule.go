@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/bufbreaking/bufbreakingconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/buflint/buflintconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufconfig"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	breakingv1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/breaking/v1"
-	lintv1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/lint/v1"
-	modulev1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufcheck/bufbreaking/bufbreakingconfig"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufcheck/buflint/buflintconfig"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufconfig"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduleref"
+	breakingv1 "github.com/element-of-surprise/buf/private/gen/proto/go/buf/alpha/breaking/v1"
+	lintv1 "github.com/element-of-surprise/buf/private/gen/proto/go/buf/alpha/lint/v1"
+	modulev1alpha1 "github.com/element-of-surprise/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
+	"github.com/element-of-surprise/buf/private/pkg/storage"
 	"go.uber.org/multierr"
 )
 

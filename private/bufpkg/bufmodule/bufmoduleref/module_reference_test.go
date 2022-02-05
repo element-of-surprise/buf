@@ -17,7 +17,7 @@ package bufmoduleref
 import (
 	"testing"
 
-	"github.com/bufbuild/buf/private/pkg/uuidutil"
+	"github.com/element-of-surprise/buf/private/pkg/uuidutil"
 	"github.com/stretchr/testify/require"
 )
 

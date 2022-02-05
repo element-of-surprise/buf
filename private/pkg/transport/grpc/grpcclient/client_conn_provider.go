@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/bufbuild/buf/private/pkg/rpc/rpcgrpc"
+	"github.com/element-of-surprise/buf/private/pkg/rpc/rpcgrpc"
 	"go.opencensus.io/plugin/ocgrpc"
 	"go.opencensus.io/trace"
 	"go.uber.org/zap"

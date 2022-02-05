@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bufbuild/buf/private/buf/buffetch/internal"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/pkg/app"
+	"github.com/element-of-surprise/buf/private/buf/buffetch/internal"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/element-of-surprise/buf/private/pkg/app"
 	"go.opencensus.io/trace"
 	"go.uber.org/zap"
 )

@@ -19,9 +19,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	modulev1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduleref"
+	modulev1alpha1 "github.com/element-of-surprise/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
+	"github.com/element-of-surprise/buf/private/pkg/storage"
 	"go.uber.org/multierr"
 )
 

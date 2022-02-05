@@ -15,7 +15,7 @@
 package storage
 
 import (
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/element-of-surprise/buf/private/pkg/normalpath"
 )
 
 // Mapper is a path mapper.

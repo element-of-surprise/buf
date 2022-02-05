@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bufbuild/buf/private/buf/bufcli"
+	"github.com/element-of-surprise/buf/private/buf/bufcli"
 )
 
 func TestWorkspaceSymlinkFail(t *testing.T) {

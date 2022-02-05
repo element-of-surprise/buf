@@ -17,7 +17,7 @@ package storage
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/pkg/storage/storageutil"
+	"github.com/element-of-surprise/buf/private/pkg/storage/storageutil"
 )
 
 // NoExternalPathReadBucket disables the external paths for the ReadBucket.

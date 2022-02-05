@@ -20,10 +20,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/gen/data/datawkt"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/element-of-surprise/buf/private/gen/data/datawkt"
+	"github.com/element-of-surprise/buf/private/pkg/storage"
 	"go.uber.org/multierr"
 )
 

@@ -15,8 +15,8 @@
 package bufmodulecache
 
 import (
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/element-of-surprise/buf/private/pkg/normalpath"
 )
 
 // newCacheKey returns the key associated with the given module pin.

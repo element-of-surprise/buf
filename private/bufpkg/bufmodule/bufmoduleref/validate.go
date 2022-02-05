@@ -18,8 +18,8 @@ import (
 	"errors"
 	"fmt"
 
-	modulev1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
-	"github.com/bufbuild/buf/private/pkg/netextended"
+	modulev1alpha1 "github.com/element-of-surprise/buf/private/gen/proto/go/buf/alpha/module/v1alpha1"
+	"github.com/element-of-surprise/buf/private/pkg/netextended"
 )
 
 // ValidateProtoModuleReference verifies the given module reference is well-formed.

@@ -17,8 +17,8 @@ package internaltesting
 import (
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/internal"
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufcheck/internal"
+	"github.com/element-of-surprise/buf/private/pkg/stringutil"
 	"github.com/stretchr/testify/assert"
 )
 

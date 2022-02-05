@@ -17,10 +17,10 @@ package bufmodulecache
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/bufpkg/buflock"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/element-of-surprise/buf/private/bufpkg/buflock"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/element-of-surprise/buf/private/pkg/storage"
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 )

@@ -19,7 +19,7 @@
 // There were no changes from v1beta1.
 package bufbreakingv1
 
-import "github.com/bufbuild/buf/private/bufpkg/bufcheck/internal"
+import "github.com/element-of-surprise/buf/private/bufpkg/bufcheck/internal"
 
 // VersionSpec is the version specification for v1.
 //

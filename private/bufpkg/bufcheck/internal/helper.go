@@ -17,8 +17,8 @@ package internal
 import (
 	"fmt"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufanalysis"
-	"github.com/bufbuild/buf/private/pkg/protosource"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufanalysis"
+	"github.com/element-of-surprise/buf/private/pkg/protosource"
 )
 
 // Helper is a helper for rules.

@@ -18,9 +18,9 @@ package storagemem
 import (
 	"errors"
 
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem/internal"
-	"github.com/bufbuild/buf/private/pkg/storage/storageutil"
+	"github.com/element-of-surprise/buf/private/pkg/storage"
+	"github.com/element-of-surprise/buf/private/pkg/storage/storagemem/internal"
+	"github.com/element-of-surprise/buf/private/pkg/storage/storageutil"
 )
 
 var errDuplicatePath = errors.New("duplicate path")

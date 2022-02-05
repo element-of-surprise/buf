@@ -1,4 +1,4 @@
-module github.com/bufbuild/buf
+module github.com/element-of-surprise/buf
 
 go 1.16
 

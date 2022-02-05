@@ -14,7 +14,7 @@
 
 package bufmodule
 
-import "github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
+import "github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduleref"
 
 type workspace struct {
 	// bufmoduleref.ModuleIdentity -> bufmodule.Module

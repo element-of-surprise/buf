@@ -18,8 +18,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/pkg/protosource"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufimage"
+	"github.com/element-of-surprise/buf/private/pkg/protosource"
 )
 
 // NewInputFiles converts the ImageFiles to InputFiles.

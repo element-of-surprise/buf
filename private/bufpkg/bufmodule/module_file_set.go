@@ -17,8 +17,8 @@ package bufmodule
 import (
 	"context"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/pkg/storage"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/element-of-surprise/buf/private/pkg/storage"
 )
 
 var _ ModuleFileSet = &moduleFileSet{}

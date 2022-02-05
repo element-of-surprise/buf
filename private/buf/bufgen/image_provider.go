@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufimage"
 )
 
 // imageProvider is used to provide the images used

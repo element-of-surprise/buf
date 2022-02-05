@@ -21,7 +21,7 @@
 package registryv1alpha1
 
 import (
-	v1alpha1 "github.com/bufbuild/buf/private/gen/proto/go/buf/alpha/audit/v1alpha1"
+	v1alpha1 "github.com/element-of-surprise/buf/private/gen/proto/go/buf/alpha/audit/v1alpha1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"

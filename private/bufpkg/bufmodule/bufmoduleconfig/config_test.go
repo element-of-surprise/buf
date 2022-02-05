@@ -18,14 +18,14 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduletesting"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduletesting"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
 
 func TestNewConfigV1Beta1Success1(t *testing.T) {
-	// https://github.com/bufbuild/buf/issues/56
+	// https://github.com/element-of-surprise/buf/issues/56
 	t.Parallel()
 	testNewConfigV1Beta1Success(
 		t,
@@ -239,7 +239,7 @@ func TestNewConfigV1Beta1Equal2(t *testing.T) {
 }
 
 func TestNewConfigV1Success1(t *testing.T) {
-	// https://github.com/bufbuild/buf/issues/56
+	// https://github.com/element-of-surprise/buf/issues/56
 	t.Parallel()
 	testNewConfigV1Success(
 		t,

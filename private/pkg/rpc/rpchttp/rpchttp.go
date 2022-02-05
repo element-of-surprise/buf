@@ -18,8 +18,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/rpc"
-	"github.com/bufbuild/buf/private/pkg/rpc/rpcheader"
+	"github.com/element-of-surprise/buf/private/pkg/rpc"
+	"github.com/element-of-surprise/buf/private/pkg/rpc/rpcheader"
 )
 
 // NewServerInterceptor returns a new server interceptor for http.

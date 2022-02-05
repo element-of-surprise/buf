@@ -19,10 +19,10 @@ import (
 	"context"
 	"crypto/tls"
 
-	"github.com/bufbuild/buf/private/gen/proto/apiclient/buf/alpha/registry/v1alpha1/registryv1alpha1apiclient"
-	"github.com/bufbuild/buf/private/gen/proto/apiclientgrpc/buf/alpha/registry/v1alpha1/registryv1alpha1apiclientgrpc"
-	"github.com/bufbuild/buf/private/pkg/transport/grpc/grpcclient"
-	"github.com/bufbuild/buf/private/pkg/transport/http/httpclient"
+	"github.com/element-of-surprise/buf/private/gen/proto/apiclient/buf/alpha/registry/v1alpha1/registryv1alpha1apiclient"
+	"github.com/element-of-surprise/buf/private/gen/proto/apiclientgrpc/buf/alpha/registry/v1alpha1/registryv1alpha1apiclientgrpc"
+	"github.com/element-of-surprise/buf/private/pkg/transport/grpc/grpcclient"
+	"github.com/element-of-surprise/buf/private/pkg/transport/http/httpclient"
 	"go.uber.org/zap"
 )
 

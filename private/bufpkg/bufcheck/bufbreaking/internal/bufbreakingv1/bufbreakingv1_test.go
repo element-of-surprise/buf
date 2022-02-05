@@ -17,7 +17,7 @@ package bufbreakingv1
 import (
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufcheck/internal/internaltesting"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufcheck/internal/internaltesting"
 )
 
 func TestVersionSpec(t *testing.T) {

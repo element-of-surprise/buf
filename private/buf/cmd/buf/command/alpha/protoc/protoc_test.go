@@ -23,19 +23,19 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/buftesting"
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd"
-	"github.com/bufbuild/buf/private/pkg/app/appcmd/appcmdtesting"
-	"github.com/bufbuild/buf/private/pkg/app/appflag"
-	"github.com/bufbuild/buf/private/pkg/command"
-	"github.com/bufbuild/buf/private/pkg/protoencoding"
-	"github.com/bufbuild/buf/private/pkg/prototesting"
-	"github.com/bufbuild/buf/private/pkg/storage"
-	"github.com/bufbuild/buf/private/pkg/storage/storagearchive"
-	"github.com/bufbuild/buf/private/pkg/storage/storagemem"
-	"github.com/bufbuild/buf/private/pkg/storage/storageos"
-	"github.com/bufbuild/buf/private/pkg/testingextended"
+	"github.com/element-of-surprise/buf/private/bufpkg/buftesting"
+	"github.com/element-of-surprise/buf/private/pkg/app"
+	"github.com/element-of-surprise/buf/private/pkg/app/appcmd"
+	"github.com/element-of-surprise/buf/private/pkg/app/appcmd/appcmdtesting"
+	"github.com/element-of-surprise/buf/private/pkg/app/appflag"
+	"github.com/element-of-surprise/buf/private/pkg/command"
+	"github.com/element-of-surprise/buf/private/pkg/protoencoding"
+	"github.com/element-of-surprise/buf/private/pkg/prototesting"
+	"github.com/element-of-surprise/buf/private/pkg/storage"
+	"github.com/element-of-surprise/buf/private/pkg/storage/storagearchive"
+	"github.com/element-of-surprise/buf/private/pkg/storage/storagemem"
+	"github.com/element-of-surprise/buf/private/pkg/storage/storageos"
+	"github.com/element-of-surprise/buf/private/pkg/testingextended"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/descriptorpb"
@@ -61,7 +61,7 @@ type testPluginInfo struct {
 
 func TestOverlap(t *testing.T) {
 	t.Parallel()
-	// https://github.com/bufbuild/buf/issues/113
+	// https://github.com/element-of-surprise/buf/issues/113
 	appcmdtesting.RunCommandSuccess(
 		t,
 		func(name string) *appcmd.Command {

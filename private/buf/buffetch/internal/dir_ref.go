@@ -17,9 +17,9 @@ package internal
 import (
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/app"
-	"github.com/bufbuild/buf/private/pkg/filepathextended"
-	"github.com/bufbuild/buf/private/pkg/normalpath"
+	"github.com/element-of-surprise/buf/private/pkg/app"
+	"github.com/element-of-surprise/buf/private/pkg/filepathextended"
+	"github.com/element-of-surprise/buf/private/pkg/normalpath"
 )
 
 var (

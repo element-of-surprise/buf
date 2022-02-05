@@ -20,11 +20,11 @@ package bufimagebuild
 import (
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufimage"
-	"github.com/bufbuild/buf/private/bufpkg/buftesting"
-	"github.com/bufbuild/buf/private/pkg/command"
-	"github.com/bufbuild/buf/private/pkg/prototesting"
-	"github.com/bufbuild/buf/private/pkg/testingextended"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufimage"
+	"github.com/element-of-surprise/buf/private/bufpkg/buftesting"
+	"github.com/element-of-surprise/buf/private/pkg/command"
+	"github.com/element-of-surprise/buf/private/pkg/prototesting"
+	"github.com/element-of-surprise/buf/private/pkg/testingextended"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/types/descriptorpb"
 )

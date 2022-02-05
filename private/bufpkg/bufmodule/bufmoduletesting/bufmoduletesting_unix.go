@@ -23,7 +23,7 @@ package bufmoduletesting
 import (
 	"testing"
 
-	"github.com/bufbuild/buf/private/bufpkg/bufmodule/bufmoduleref"
+	"github.com/element-of-surprise/buf/private/bufpkg/bufmodule/bufmoduleref"
 	"github.com/stretchr/testify/require"
 )
 

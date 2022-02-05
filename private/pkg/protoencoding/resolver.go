@@ -15,7 +15,7 @@
 package protoencoding
 
 import (
-	"github.com/bufbuild/buf/private/pkg/protodescriptor"
+	"github.com/element-of-surprise/buf/private/pkg/protodescriptor"
 	"google.golang.org/protobuf/reflect/protodesc"
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/reflect/protoregistry"

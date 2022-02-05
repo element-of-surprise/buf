@@ -20,8 +20,8 @@ package buffetch
 import (
 	"testing"
 
-	"github.com/bufbuild/buf/private/buf/buffetch/internal"
-	"github.com/bufbuild/buf/private/pkg/app"
+	"github.com/element-of-surprise/buf/private/buf/buffetch/internal"
+	"github.com/element-of-surprise/buf/private/pkg/app"
 )
 
 func TestGetParsedRefSuccess_UnixOnly(t *testing.T) {

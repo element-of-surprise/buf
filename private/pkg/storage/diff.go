@@ -21,8 +21,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/bufbuild/buf/private/pkg/command"
-	"github.com/bufbuild/buf/private/pkg/diff"
+	"github.com/element-of-surprise/buf/private/pkg/command"
+	"github.com/element-of-surprise/buf/private/pkg/diff"
 )
 
 // DiffOption is an option for Diff.

@@ -17,7 +17,7 @@ package internal
 import (
 	"sort"
 
-	"github.com/bufbuild/buf/private/pkg/stringutil"
+	"github.com/element-of-surprise/buf/private/pkg/stringutil"
 )
 
 // VersionSpec specifies the rules, ids, and categories for a given version.
